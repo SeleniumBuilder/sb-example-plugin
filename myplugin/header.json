@@ -1,0 +1,14 @@
+{
+  "headerVersion": 1,
+  "pluginVersion": "1.0",
+  "builderMinVersion": "2",
+  "builderMaxVersion": "2.0.*",
+  "identifier": "myplugin",
+  "name": "My Plugin",
+  "description": "Example plugin.",
+  "siteUrl": "http://www.example.com",
+  "shutdownFunction": "myplugin.shutdown",
+  "load": [
+    "plugin.js"
+  ]
+}
